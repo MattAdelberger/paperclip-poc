@@ -25,8 +25,6 @@ Data persistence:
 
 All persisted under your bind mount (`./data/docker-paperclip` in the example above).
 
-The image does not declare a Dockerfile `VOLUME`. Persist `/paperclip` using your runtime's volume mechanism, such as a Docker bind mount, Compose volume, or Railway volume.
-
 ## Compose Quickstart
 
 ```sh
